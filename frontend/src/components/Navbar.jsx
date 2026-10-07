@@ -18,7 +18,11 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/">
-          <img src="/ShopnestLogo.png" alt="ShopNest" style={{ height: '36px', width: '36px', borderRadius: '8px', objectFit: 'cover' }} />
+          <img 
+  src="https://api.iconify.design/lucide:shopping-bag.svg?color=%23ffffff" 
+  alt="ShopNest" 
+  style={{ height: '32px', width: '32px', marginRight: '8px' }} 
+/>
           ShopNest
         </Link>
       </div>
